@@ -1,6 +1,7 @@
 import { useState } from "react";
-import "./App.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link as RouterLink, useNavigate } from "react-router-dom";
+import { Link } from "@adobe/react-spectrum";
+import { Button } from "@adobe/react-spectrum";
 
 const CORRECT_PASSWORD = "123";
 
@@ -16,24 +17,20 @@ function SignIn() {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        Log in
-        <form>
-          <input type="email" />
-          <input
-            type="password"
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          {wrongPassword && <p>Wrong password yo!</p>}
-          <button type="button" onClick={handleClick}>
-            Sign in
-          </button>
-        </form>
-        <Link className="App-link" to="/forgot-password">
-          Forgot password?
-        </Link>
-      </header>
+    <div>
+      <header>Sign in to League</header>
+      <input type="email" />
+      <input type="password" onChange={(e) => setPassword(e.target.value)} />
+      {wrongPassword && <p>Wrong password yo!</p>}
+      <Button variant="cta" onClick={handleClick}>
+        Sign in
+      </Button>
+      <Link>
+        <RouterLink to="/forgot-password">Forgot your password?</RouterLink>
+      </Link>
+      <p>--- OR ---</p>
+      <Button variant="secondary">Sign in with Google</Button>
+      <Button variant="secondary">Sign in with Apple</Button>
     </div>
   );
 }
