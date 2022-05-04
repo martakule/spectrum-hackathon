@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { defaultTheme, Provider } from "@adobe/react-spectrum";
+import { lightTheme, Provider } from "@adobe/react-spectrum";
 import "./index.css";
 import SignIn from "./SignIn";
 import ForgotPassword from "./ForgotPassword";
@@ -9,7 +9,7 @@ import Success from "./Success";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider theme={defaultTheme}>
+    <Provider theme={lightTheme}>
       <BrowserRouter basename="/spectrum-hackathon">
         <Routes>
           <Route path="/" element={<SignIn />} />
