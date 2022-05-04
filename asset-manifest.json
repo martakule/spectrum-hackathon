@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/spectrum-hackathon/static/css/main.e50374bb.css",
-    "main.js": "/spectrum-hackathon/static/js/main.a90e6e7b.js",
+    "main.css": "/spectrum-hackathon/static/css/main.a34db63c.css",
+    "main.js": "/spectrum-hackathon/static/js/main.41fb3909.js",
     "static/media/logo.svg": "/spectrum-hackathon/static/media/logo.6b1aa3a83b83eba3aed5197ad760b95a.svg",
     "static/media/checkmark.svg": "/spectrum-hackathon/static/media/checkmark.9e14264a04e2621ab0a7636f6045ece0.svg",
     "static/media/google_logo.svg": "/spectrum-hackathon/static/media/google_logo.b3e2b6cfc238cc36dcd8b01962f945ce.svg",
     "static/media/apple_logo.svg": "/spectrum-hackathon/static/media/apple_logo.bdc00e04ceca558cb21c05a8022b3886.svg",
     "index.html": "/spectrum-hackathon/index.html",
-    "main.e50374bb.css.map": "/spectrum-hackathon/static/css/main.e50374bb.css.map",
-    "main.a90e6e7b.js.map": "/spectrum-hackathon/static/js/main.a90e6e7b.js.map"
+    "main.a34db63c.css.map": "/spectrum-hackathon/static/css/main.a34db63c.css.map",
+    "main.41fb3909.js.map": "/spectrum-hackathon/static/js/main.41fb3909.js.map"
   },
   "entrypoints": [
-    "static/css/main.e50374bb.css",
-    "static/js/main.a90e6e7b.js"
+    "static/css/main.a34db63c.css",
+    "static/js/main.41fb3909.js"
   ]
 }
