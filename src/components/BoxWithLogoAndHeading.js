@@ -4,7 +4,11 @@ import "../custom_styles.css";
 
 export function BoxWithLogoAndHeading({ heading, children }) {
   return (
-    <Flex height="100vh" alignItems="center">
+    <Flex
+      height="100vh"
+      alignItems="center"
+      UNSAFE_className="background_image"
+    >
       <Flex marginX={95}>
         <div className="container">
           <Flex
