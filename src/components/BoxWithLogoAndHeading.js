@@ -18,7 +18,7 @@ export function BoxWithLogoAndHeading({ heading, children }) {
               width={151}
               title="League logo: on the left a stylized cross made of a purle L and mint squares; on the right the work League"
             />
-            <Heading level={1}>{heading}</Heading>
+            <Heading level={2}>{heading}</Heading>
             {children}
           </Flex>
         </div>

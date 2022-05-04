@@ -11,6 +11,7 @@
  */
 
 .spectrum {
+  --spectrum-global-league-blurple: #501bd2;
   /* spectrum-animationGlobals.css */
   --spectrum-global-animation-duration-0: 0ms;
   --spectrum-global-animation-duration-100: 130ms;
@@ -52,7 +53,9 @@
   --spectrum-global-color-static-blue-400: rgb(55, 142, 240);
   --spectrum-global-color-static-blue-500: rgb(38, 128, 235);
   --spectrum-global-color-static-blue-600: rgb(20, 115, 230);
+  --spectrum-global-color-static-blue-600: #501bd2;
   --spectrum-global-color-static-blue-700: rgb(13, 102, 208);
+  --spectrum-global-color-static-blue-700: #1d009f;
   --spectrum-global-color-static-blue-800: rgb(9, 90, 186);
   --spectrum-global-color-static-red-400: rgb(236, 91, 98);
   --spectrum-global-color-static-red-500: rgb(227, 72, 80);
@@ -376,7 +379,7 @@
     --spectrum-global-dimension-static-size-10
   );
   --spectrum-alias-border-size-thick: var(
-    --spectrum-global-dimension-static-size-25
+    --spectrum-global-dimension-static-size-10
   );
   --spectrum-alias-border-size-thicker: var(
     --spectrum-global-dimension-static-size-50
@@ -714,7 +717,7 @@
     --spectrum-global-dimension-size-100
   );
   --spectrum-alias-border-radius-large: var(
-    --spectrum-global-dimension-size-200
+    --spectrum-global-dimension-size-40
   );
   --spectrum-alias-single-line-height: var(
     --spectrum-global-dimension-size-400
@@ -928,7 +931,7 @@
   );
   --spectrum-alias-title-text-color: var(--spectrum-global-color-gray-900);
   --spectrum-alias-heading-text-color: var(--spectrum-global-color-gray-900);
-  --spectrum-alias-border-color: var(--spectrum-global-color-gray-400);
+  --spectrum-alias-border-color: var(--spectrum-global-color-gray-700);
   --spectrum-alias-border-color-hover: var(--spectrum-global-color-gray-500);
   --spectrum-alias-border-color-down: var(--spectrum-global-color-gray-500);
   --spectrum-alias-border-color-focus: var(--spectrum-global-color-blue-400);

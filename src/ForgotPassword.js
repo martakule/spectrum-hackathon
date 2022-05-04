@@ -25,17 +25,19 @@ function ForgotPassword() {
   const navigate = useNavigate();
   return (
     <BoxWithLogoAndHeading heading="Forgot yout password?">
-      <Content>
+      <Content marginBottom={16}>
         To reset your password, please enter the email address associated with
         your League account
       </Content>
-      <Form>
+      <Form width="100%">
         <TextField placeholder="*Enter your email address" />
-        <ButtonGroup>
-          <Button variant="primary" onClick={() => navigate("/")}>
+        <ButtonGroup align="center" marginTop={24} width="100%">
+          <Button flexGrow={1} variant="primary" onClick={() => navigate("/")}>
             Back
           </Button>
-          <Button variant="cta">Submit</Button>
+          <Button flexGrow={1} variant="cta">
+            Sign In
+          </Button>
         </ButtonGroup>
       </Form>
     </BoxWithLogoAndHeading>

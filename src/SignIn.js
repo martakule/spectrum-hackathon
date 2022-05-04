@@ -4,7 +4,7 @@ import {
   Link,
   Form,
   TextField,
-  ButtonGroup,
+  Flex,
   Button,
   Text,
 } from "@adobe/react-spectrum";
@@ -28,7 +28,7 @@ function SignIn() {
 
   return (
     <BoxWithLogoAndHeading heading="Sign in to League">
-      <Form>
+      <Form width="100%">
         <TextField
           aria-label="email"
           type="email"
@@ -40,6 +40,7 @@ function SignIn() {
           type="password"
           placeholder="Enter your password"
           onChange={(value) => setPassword(value)}
+          marginBottom={16}
         />
         {wrongPassword && (
           <p className="red">
@@ -49,7 +50,7 @@ function SignIn() {
             support.
           </p>
         )}
-        <Button variant="cta" onClick={handleClick}>
+        <Button variant="cta" onClick={handleClick} marginBottom={24}>
           Sign in
         </Button>
       </Form>
@@ -57,16 +58,18 @@ function SignIn() {
         <RouterLink to="/forgot-password">Forgot your password?</RouterLink>
       </Link>
       <p>--- OR ---</p>
-      <ButtonGroup orientation="vertical" align="center">
-        <Button variant="secondary">
+      <Button variant="primary" width="100%" marginBottom={16}>
+        <Flex justifyContent="center">
           <GoogleLogo width={16} title="Google logo icon" />
           <Text marginStart={8}>Sign in with Google</Text>
-        </Button>
-        <Button variant="secondary">
+        </Flex>
+      </Button>
+      <Button variant="primary" width="100%">
+        <Flex justifyContent="center">
           <AppleLogo width={16} title="Apple logo icon" />
           <Text marginStart={8}>Sign in with Apple</Text>
-        </Button>
-      </ButtonGroup>
+        </Flex>
+      </Button>
     </BoxWithLogoAndHeading>
   );
 }
