@@ -12,7 +12,7 @@ ReactDOM.render(
     <Provider theme={defaultTheme}>
       <BrowserRouter>
         <Routes>
-          <Route path="/spectrum-hackathon" element={<SignIn />} />
+          <Route path="spectrum-hackathon" element={<SignIn />} />
           <Route path="forgot-password" element={<ForgotPassword />} />
           <Route path="success" element={<Success />} />
         </Routes>
