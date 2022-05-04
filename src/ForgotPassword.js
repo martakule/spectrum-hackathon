@@ -32,10 +32,7 @@ function ForgotPassword() {
       <Form>
         <TextField placeholder="*Enter your email address" />
         <ButtonGroup>
-          <Button
-            variant="primary"
-            onClick={() => navigate("/spectrum-hackathon")}
-          >
+          <Button variant="primary" onClick={() => navigate("/")}>
             Back
           </Button>
           <Button variant="cta">Submit</Button>

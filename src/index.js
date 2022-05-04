@@ -10,9 +10,9 @@ import Success from "./Success";
 ReactDOM.render(
   <React.StrictMode>
     <Provider theme={defaultTheme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/spectrum-hackathon">
         <Routes>
-          <Route path="spectrum-hackathon" element={<SignIn />} />
+          <Route path="/" element={<SignIn />} />
           <Route path="forgot-password" element={<ForgotPassword />} />
           <Route path="success" element={<Success />} />
         </Routes>
