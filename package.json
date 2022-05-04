@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
+  "name": "spectrum-hackathon",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://martakule.github.io/spectrum-hackathon/",
   "dependencies": {
     "@adobe/react-spectrum": "^3.16.5",
