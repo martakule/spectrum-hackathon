@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/spectrum-hackathon/static/css/main.7fa3ee92.css",
-    "main.js": "/spectrum-hackathon/static/js/main.1b05734f.js",
-    "static/media/logo.svg": "/spectrum-hackathon/static/media/logo.6b1aa3a83b83eba3aed5197ad760b95a.svg",
-    "static/media/checkmark.svg": "/spectrum-hackathon/static/media/checkmark.9e14264a04e2621ab0a7636f6045ece0.svg",
-    "static/media/google_logo.svg": "/spectrum-hackathon/static/media/google_logo.b3e2b6cfc238cc36dcd8b01962f945ce.svg",
-    "static/media/apple_logo.svg": "/spectrum-hackathon/static/media/apple_logo.bdc00e04ceca558cb21c05a8022b3886.svg",
-    "index.html": "/spectrum-hackathon/index.html",
-    "main.7fa3ee92.css.map": "/spectrum-hackathon/static/css/main.7fa3ee92.css.map",
-    "main.1b05734f.js.map": "/spectrum-hackathon/static/js/main.1b05734f.js.map"
+    "main.css": "/static/css/main.7fa3ee92.css",
+    "main.js": "/static/js/main.fbd165b7.js",
+    "static/media/logo.svg": "/static/media/logo.6b1aa3a83b83eba3aed5197ad760b95a.svg",
+    "static/media/checkmark.svg": "/static/media/checkmark.9e14264a04e2621ab0a7636f6045ece0.svg",
+    "static/media/google_logo.svg": "/static/media/google_logo.b3e2b6cfc238cc36dcd8b01962f945ce.svg",
+    "static/media/apple_logo.svg": "/static/media/apple_logo.bdc00e04ceca558cb21c05a8022b3886.svg",
+    "index.html": "/index.html",
+    "main.7fa3ee92.css.map": "/static/css/main.7fa3ee92.css.map",
+    "main.fbd165b7.js.map": "/static/js/main.fbd165b7.js.map"
   },
   "entrypoints": [
     "static/css/main.7fa3ee92.css",
-    "static/js/main.1b05734f.js"
+    "static/js/main.fbd165b7.js"
   ]
 }
