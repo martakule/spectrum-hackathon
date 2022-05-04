@@ -1,0 +1,13 @@
+.container {
+  max-height: 591px;
+  min-height: 450px;
+  width: 375px;
+  overflow: auto;
+  box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.red {
+  color: red;
+  height: 200px;
+}

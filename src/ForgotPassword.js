@@ -1,5 +1,12 @@
 import { useNavigate } from "react-router-dom";
-import { Button } from "@adobe/react-spectrum";
+import {
+  Content,
+  Form,
+  TextField,
+  ButtonGroup,
+  Button,
+} from "@adobe/react-spectrum";
+import { BoxWithLogoAndHeading } from "./components/BoxWithLogoAndHeading";
 
 /*
 According to documentation, this should work:
@@ -12,24 +19,26 @@ https://react-spectrum.adobe.com/react-spectrum/Button.html#props
 elementType: The HTML element or React element used to render the button, e.g. 'div', 'a', or RouterLink.
 
 However, router throws an error that "to" is undefined.
-
 */
 
 function ForgotPassword() {
   const navigate = useNavigate();
   return (
-    <div>
-      <header>Forgot yout password ?</header>
-      <p>
+    <BoxWithLogoAndHeading heading="Forgot yout password?">
+      <Content>
         To reset your password, please enter the email address associated with
         your League account
-      </p>
-      <input type="text" placeholder="*Enter your email address" />
-      <Button variant="primary" onClick={() => navigate("/")}>
-        Back
-      </Button>
-      <Button variant="cta">Submit</Button>
-    </div>
+      </Content>
+      <Form>
+        <TextField placeholder="*Enter your email address" />
+        <ButtonGroup>
+          <Button variant="primary" onClick={() => navigate("/")}>
+            Back
+          </Button>
+          <Button variant="cta">Submit</Button>
+        </ButtonGroup>
+      </Form>
+    </BoxWithLogoAndHeading>
   );
 }
 

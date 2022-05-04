@@ -1,11 +1,14 @@
-import { Link } from "react-router-dom";
+import { BoxWithLogoAndHeading } from "./components/BoxWithLogoAndHeading";
+import { ReactComponent as GreenCheckmark } from "./assets/checkmark.svg";
 
 function Success() {
   return (
-    <div>
-      <header>Signed in!</header>
-      <Link to="/">Log out</Link>
-    </div>
+    <BoxWithLogoAndHeading heading="Signed in!">
+      <GreenCheckmark
+        width={103}
+        title="Green circle with a white checkmark inside"
+      />
+    </BoxWithLogoAndHeading>
   );
 }
 

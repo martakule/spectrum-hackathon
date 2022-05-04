@@ -1,7 +1,8 @@
 import React from "react";
-import { defaultTheme, Provider } from "@adobe/react-spectrum";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { defaultTheme, Provider } from "@adobe/react-spectrum";
+import "./index.css";
 import SignIn from "./SignIn";
 import ForgotPassword from "./ForgotPassword";
 import Success from "./Success";
